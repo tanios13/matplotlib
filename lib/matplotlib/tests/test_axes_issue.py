@@ -106,7 +106,6 @@ def test_scatter_facecolor_kinds(self):
                             linewidths=[1.1, 1.2, 1.3])
     assert_array_equal(pc_no_face1.get_facecolor(), pc_no_face2.get_edgecolor())
 
-"""
 add tests of making empty markers with edges that are still mapped
 """
 #Test Case 1: Empty markers with mapped edges
